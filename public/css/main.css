@@ -103,11 +103,13 @@ textarea {
 
 body {
     font-family: 'Lato', sans-serif;
+    color: #3C4041;
 }
 
 header {
+    position: fixed;
     width: 100%;
-    height: 60px;
+    height: 55px;
     background-color: cornflowerblue;
     padding: 10px;
     color: #fff;
@@ -119,7 +121,12 @@ header {
 
 h1 {
     margin: 0;
-    font-size: 26px;
+    font-size: 24px;
+}
+
+h2 {
+    margin: 5px 0;
+    font-size: 22px; 
 }
 
 #burger {
@@ -128,7 +135,7 @@ h1 {
 }
 
 #burger span {
-    font-size: 28px;
+    font-size: 26px;
     cursor: pointer;
 }
 
@@ -147,10 +154,10 @@ h1 {
 
 .overlay-content {
     position: relative;
-    top: 25%;
+    top: 15%;
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .overlay a {
@@ -180,6 +187,16 @@ h1 {
     top: 15px;
     right: 35px;
   }
+}
+
+.content {
+    padding: 12px;
+}
+
+.card {
+    margin: 8px;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
 
 /* ==========================================================================
